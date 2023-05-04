@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poppins-Regular'), url(/fonts/Poppins-Regular.ttf) format('ttf');
+}
+
+body {
+    width: 300px;
+    display: flex;
+    border: 2px solid white;
+    font-family: Myriad Pro Regular, sans-serif;
+    padding: 0;
+    margin: auto;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #ff6f21;
+}
+
+.main-container {
+    width: 300px;
+    height: 300px;
+    background-color: #141e24;
+}
+
+.second-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.button-box {
+    width: 44.14px;
+    height: 31px;
+    background: #141e24;
+    border-radius: 10px;
+    border: 2px solid #ff6f21;
+}
+
+.button-ico{
+    content: url("images/other/object-select-white.png");
+    height: 25px;
+    width: 25px;
+    margin-left: 5%;
+    margin-top: 1%;
+    color: rgb(255, 255, 255) !important;
+    z-index: 1;
+}
+
+
+.button-txt {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #ff6f21;
+}

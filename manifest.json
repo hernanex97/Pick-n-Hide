@@ -1,0 +1,26 @@
+{
+  "name": "Pick n' Hide",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": ["scripting", "tabs", "activeTab"],
+  "author": "Hernan Exposito",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "/images/icon/extension-ico.png",
+    "default_title": "Pick n' Hide"
+  },
+  "icons": {
+    "64": "/images/icon/extension-ico.png",
+    "128": "/images/icon/extension-ico.png",
+    "256": "/images/icon/extension-ico.png",
+    "512": "/images/icon/extension-ico.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*","http://*/*"],
+      "js": ["popup.js"]
+    }
+  ],
+  "host_permissions": ["http://*/*", "https://*/*"]
+  }
+  
